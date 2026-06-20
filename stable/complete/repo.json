@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-13T18:25:43.511Z",
+  "description": {
+    "de": "Offizielle komplette Repository für alle Betriebssysteme",
+    "en": "Official Complete Repository for All Operating Systems"
+  },
+  "license": "AGPL-3.0-only",
+  "name": "nitropkg/complete",
+  "repositories": [
+    {
+      "hash": "bcad392c450e8758e4d73e2b4ce0d24c4734faf3c29761ad0541bd04ac21bd39",
+      "url": "https://nitropkg.github.io/repos/stable/nitropkg"
+    }
+  ],
+  "signing": {
+    "encoded_key": "c3RhYmxlL25pdHJvcGtnL3BhY2thZ2VzL25pdHJvcGtnLWtleXMvdW5pdmVyc2FsL3VuaXZlcnNhbC9rZXlzL25pdHJvcGtnLWtleXMuZ3BnCg==",
+    "key_id": "nitropkg-keys"
+  },
+  "suite": "stable",
+  "url": "https://nitropkg.github.io/repos/stable/complete",
+  "valid_until": "2026-06-20T18:25:43.511Z"
+}

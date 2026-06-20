@@ -1,0 +1,28 @@
+{
+  "date": "2026-06-20T12:25:43.511Z",
+  "description": {
+    "de": "Offizielle NitroPkg GPG-Schlüssel",
+    "en": "Official NitroPkg GPG keys"
+  },
+  "license": "ARR",
+  "name": "nitropkg-keys",
+  "readable_name": {
+    "de": "NitroPkg-Schlüssel",
+    "en": "NitroPkg Keys"
+  },
+  "scripts": {
+    "install": {
+      "hash": "12d9709d19134fd46c2804e3bd626bc6646636877a024f72c38a510103902e8a",
+      "type": "key",
+      "url": "https://nitropkg.github.io/repos/stable/nitropkg/packages/nitropkg-keys/universal/universal/keys/nitropkg-keys.gpg"
+    },
+    "uninstall": {
+      "hash": "12d9709d19134fd46c2804e3bd626bc6646636877a024f72c38a510103902e8a",
+      "type": "key",
+      "url": "nitropkg-keys"
+    }
+  },
+  "suite": "stable",
+  "version": "1.0.0",
+  "website": "https://nitropkg.github.io/"
+}
