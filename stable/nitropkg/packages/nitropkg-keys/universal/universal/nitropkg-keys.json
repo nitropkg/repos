@@ -4,7 +4,9 @@
     "de": "Offizielle NitroPkg GPG-Schlüssel",
     "en": "Official NitroPkg GPG keys"
   },
-  "license": "ARR",
+  "license": {
+    "name": "ARR"
+  },
   "name": "nitropkg-keys",
   "readable_name": {
     "de": "NitroPkg-Schlüssel",

@@ -4,12 +4,15 @@
     "de": "Offizielle Repository für NitroPkg",
     "en": "Official Repository for NitroPkg"
   },
-  "license": "AGPL-3.0-only",
+  "license": {
+    "name": "AGPL-3.0-only",
+    "url": "https://nitropkg.github.io/repos/LICENSE"
+  },
   "name": "nitropkg-nitropkg",
   "packages": [
     {
-      "hash": "838c45755ec9c0db2a8c544423701ef3b4cc1983f435fde8dfde6c8a8942bc14",
-      "url": "packages/nitropkg-keys/linux/universal/nitropkg-keys.json"
+      "hash": "a00cf7ff4408cf5629f0b1070d24aa62495fa35738d4dd5ea02ae5f582d1887a",
+      "url": "packages/nitropkg-keys/universal/universal/nitropkg-keys.json"
     }
   ],
   "signing": {
@@ -18,5 +21,5 @@
   },
   "suite": "stable",
   "url": "https://nitropkg.github.io/repos/stable/nitropkg",
-  "valid_until": "2026-06-20T18:25:43.511Z"
+  "valid_until": "2026-06-23T18:25:43.511Z"
 }
