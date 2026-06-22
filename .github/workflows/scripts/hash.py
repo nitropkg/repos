@@ -86,7 +86,7 @@ def update_package_manifest(path: Path) -> bool:
             continue
 
         url = script.get("url", "")
-        script_type = script.get("type")
+        script_type = script.get("$type")
 
         if isinstance(url, str) and url.startswith(("http://", "https://")):
             new_hash = download_sha256(url)

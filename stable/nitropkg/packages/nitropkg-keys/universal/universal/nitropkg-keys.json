@@ -14,13 +14,13 @@
   },
   "scripts": {
     "install": {
+      "$type": "key",
       "hash": "12d9709d19134fd46c2804e3bd626bc6646636877a024f72c38a510103902e8a",
-      "type": "key",
       "url": "https://nitropkg.github.io/repos/stable/nitropkg/packages/nitropkg-keys/universal/universal/keys/nitropkg-keys.asc"
     },
     "uninstall": {
+      "$type": "key",
       "hash": "12d9709d19134fd46c2804e3bd626bc6646636877a024f72c38a510103902e8a",
-      "type": "key",
       "url": "nitropkg-keys"
     }
   },
