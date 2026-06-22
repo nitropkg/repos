@@ -5,16 +5,25 @@ on:
     branches: [ "main" ]
     paths:
       - "**/repo.json"
+      - "**/packages/**.json"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  sign:
+  update:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-slim
     steps:
       - uses: actions/checkout@v7
+
+      - name: Install Python dependencies
+        run: python3 -m pip install requests
+
+      - name: Update hashes
+        run: |
+          python3 .github/workflows/scripts/hash.py
 
       - name: Import GPG key
         uses: crazy-max/ghaction-import-gpg@v7
@@ -23,21 +32,20 @@ jobs:
           passphrase: ${{ secrets.NITROPKG_PRIVATE_KEY_PASSPHRASE }}
           trust_level: 5
 
-      - name: Sign repo.json files
+      - name: Sign repositories
         run: |
           set -e
           find . -type f -name "repo.json" -not -path "*/.git/*" | while read -r file; do
             gpg --batch --yes --armor --detach-sign --output "${file}.asc" "$file"
           done
 
-      # Runs a set of commands using the runners shell
-      - name: Commit and push signatures
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -- "*.asc"
+          git add -- "*.json" "*.asc"
           if ! git diff --staged --quiet; then
-            git commit -m "Update signatures"
+            git commit -m "Update repositories"
             git push
           else
             echo "No changes were made."

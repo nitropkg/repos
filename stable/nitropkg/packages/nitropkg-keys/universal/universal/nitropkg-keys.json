@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-20T12:25:43.511Z",
+  "date": "2026-06-22T13:04:27.767Z",
   "description": {
     "de": "Offizielle NitroPkg GPG-Schlüssel",
     "en": "Official NitroPkg GPG keys"
@@ -16,7 +16,7 @@
     "install": {
       "hash": "12d9709d19134fd46c2804e3bd626bc6646636877a024f72c38a510103902e8a",
       "type": "key",
-      "url": "https://nitropkg.github.io/repos/stable/nitropkg/packages/nitropkg-keys/universal/universal/keys/nitropkg-keys.gpg"
+      "url": "https://nitropkg.github.io/repos/stable/nitropkg/packages/nitropkg-keys/universal/universal/keys/nitropkg-keys.asc"
     },
     "uninstall": {
       "hash": "12d9709d19134fd46c2804e3bd626bc6646636877a024f72c38a510103902e8a",
