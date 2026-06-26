@@ -8,6 +8,14 @@
     "url": "https://raw.githubusercontent.com/melonDS-emu/melonDS/refs/heads/master/LICENSE"
   },
   "name": "melonds",
+  "operating_systems": [
+    {
+      "architectures": [
+        "x64"
+      ],
+      "platform": "linux"
+    }
+  ],
   "readable_name": {
     "en": "melonDS"
   },
