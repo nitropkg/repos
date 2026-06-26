@@ -23,12 +23,12 @@
     "install": {
       "$type": "shell",
       "hash": "ea4e22bc07bed54d299b863b747585ac282c302aab2496c8ea519e99fa1cdb50",
-      "url": "https://raw.githubusercontent.com/nitropkg/repos/refs/heads/main/stable/emulation/packages/melonds/linux/x86_64/scripts/install.sh"
+      "url": "https://raw.githubusercontent.com/nitropkg/repos/refs/heads/main/stable/emulation/packages/melonds/linux/x64/scripts/install.sh"
     },
     "uninstall": {
       "$type": "shell",
       "hash": "45463a6edbd5be9d9f0d0bdcb1533bd17bdb2fcf660c8498a1fd1a5802a8ba6b",
-      "url": "https://raw.githubusercontent.com/nitropkg/repos/refs/heads/main/stable/emulation/packages/melonds/linux/x86_64/scripts/uninstall.sh"
+      "url": "https://raw.githubusercontent.com/nitropkg/repos/refs/heads/main/stable/emulation/packages/melonds/linux/x64/scripts/uninstall.sh"
     }
   },
   "suite": "stable",

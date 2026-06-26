@@ -12,7 +12,11 @@
   "packages": [
     {
       "hash": "c3306e6e83b10e116ec47323166a8876c985b56bd324708016e8d08de0eac948",
-      "url": "packages/melonds/linux/x86_64/melonds.json"
+      "url": "packages/melonds/linux/x64/melonds.json"
+    },
+    {
+      "hash": "c3306e6e83b10e116ec47323166a8876c985b56bd324708016e8d08de0eac948",
+      "url": "packages/melonds/linux/arm64/melonds.json"
     }
   ],
   "signing": {
