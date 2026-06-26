@@ -1,0 +1,29 @@
+{
+  "date": "2026-06-26T13:04:27.767Z",
+  "description": {
+    "en": "DS emulator, sorta"
+  },
+  "license": {
+    "name": "GPL-3.0",
+    "url": "https://raw.githubusercontent.com/melonDS-emu/melonDS/refs/heads/master/LICENSE"
+  },
+  "name": "melonds",
+  "readable_name": {
+    "en": "melonDS"
+  },
+  "scripts": {
+    "install": {
+      "$type": "shell",
+      "hash": "12d9709d19134fd46c2804e3bd626bc6646636877a024f72c38a510103902e8a",
+      "url": "https://nitropkg.github.io/repos/stable/emulation/packages/melonds/linux/x86_64/scripts/install.sh"
+    },
+    "uninstall": {
+      "$type": "shell",
+      "hash": "12d9709d19134fd46c2804e3bd626bc6646636877a024f72c38a510103902e8a",
+      "url": "https://nitropkg.github.io/repos/stable/emulation/packages/melonds/linux/x86_64/scripts/uninstall.sh"
+    }
+  },
+  "suite": "stable",
+  "version": "1.1",
+  "website": "https://melonds.kuribo64.net/"
+}
