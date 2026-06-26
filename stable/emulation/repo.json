@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-26T13:51:39.456Z",
+  "date": "2026-06-26T20:50:45.113Z",
   "description": {
     "de": "Offizielle Repository für Emulation",
     "en": "Official Repository for Emulation"
@@ -11,11 +11,11 @@
   "name": "nitropkg-emulation",
   "packages": [
     {
-      "hash": "26c845b90ebef630f4fe4e100b1d636065571bee2cfd9bdab32984c554f5baa0",
+      "hash": "455f6d5bccea2a90ef61e0a88d855ac8f49a81072233c29bed0b94a0236d2b8b",
       "url": "packages/melonds/linux/x64/melonds.json"
     },
     {
-      "hash": "4296f15c093a2d5761ff71e820b255b18f6a2439c7631facde357799cb86436d",
+      "hash": "4b0d6efaf072b353fe621c90b4ff990abb176e100ab0b98cfcc8f5516c231c83",
       "url": "packages/melonds/linux/arm64/melonds.json"
     }
   ],
@@ -25,5 +25,5 @@
   },
   "suite": "stable",
   "url": "https://nitropkg.github.io/repos/stable/emulation",
-  "valid_until": "2026-06-29T13:51:39.456Z"
+  "valid_until": "2026-06-29T20:50:45.113Z"
 }

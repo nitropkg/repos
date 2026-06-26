@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-26T13:42:31.629Z",
+  "date": "2026-06-26T20:50:44.996Z",
   "description": {
     "en": "DS emulator, sorta"
   },
@@ -22,7 +22,7 @@
   "scripts": {
     "install": {
       "$type": "shell",
-      "hash": "ea4e22bc07bed54d299b863b747585ac282c302aab2496c8ea519e99fa1cdb50",
+      "hash": "3dcd6c7363b7d0cb0457a716bd5fa3ba172eb473b7a4956d0ccf3986ddf14f33",
       "url": "https://raw.githubusercontent.com/nitropkg/repos/refs/heads/main/stable/emulation/packages/melonds/linux/x64/scripts/install.sh"
     },
     "uninstall": {
