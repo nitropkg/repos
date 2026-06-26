@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-22T19:03:53.197Z",
+  "date": "2026-06-26T13:42:31.716Z",
   "description": {
     "de": "Offizielle Repository für NitroPkg",
     "en": "Official Repository for NitroPkg"
@@ -11,7 +11,7 @@
   "name": "nitropkg-nitropkg",
   "packages": [
     {
-      "hash": "8e0c42a676a1a5d6183f572041d3a36367ab89f776d70e7e0572c01e8bd8028a",
+      "hash": "7b11c238a517aa483cae2b761cd90c8caa88cecf0c02ff8f9dcb53a3e8f56a9b",
       "url": "packages/nitropkg-keys/universal/universal/nitropkg-keys.json"
     }
   ],
@@ -21,5 +21,5 @@
   },
   "suite": "stable",
   "url": "https://nitropkg.github.io/repos/stable/nitropkg",
-  "valid_until": "2026-06-25T19:03:53.197Z"
+  "valid_until": "2026-06-29T13:42:31.716Z"
 }
